@@ -1,0 +1,132 @@
+header {
+    background-color: rgb(231, 132, 45);
+    margin: 0%;
+    padding: 20px;
+    min-height: 70px;
+    color: whitesmoke;
+}
+
+ul {
+    padding-bottom: 1%;
+    margin: 0%;
+    text-decoration: none;
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    float: right;
+    text-decoration: none;
+}
+
+#main {
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+
+body {
+    margin: 0%;
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+}
+
+#logoimg {
+    height: 80px;
+    width: 200px;
+    margin-left: 20%;
+    margin-top: -1%;
+
+}
+
+nav {
+    text-decoration: none;
+}
+
+/* Remove underline for the "HOME" link */
+nav a {
+    text-decoration: none;
+
+    color: whitesmoke;
+}
+
+header .highlight,
+header,
+.current a {
+    color: black;
+    font-weight: bold;
+}
+
+header :hover {
+    color: black;
+}
+#img1{
+    height: 100px;
+    border-radius: 25%;
+}
+#img2{
+    height: 100px;
+    border-radius: 25%;
+}
+#cont2{
+    text-align: center;
+}
+h3{
+    color:rgb(231, 132, 45) ;
+}
+#box{
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    margin: 10px;
+    background-color: bisque;
+    padding: 20px;
+    color: rgb(111, 70, 19);
+    border-radius: 25%;
+
+}
+h1{
+    color: rgb(231, 132, 45);
+    text-decoration: underline;
+}
+#article{
+    color: rgb(111, 70, 19);
+    background-color: bisque;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 15%;
+    padding-top: 0;
+    margin-top: 0;
+}
+#box1{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(111, 70, 19);
+    border-radius: 25%;
+
+}
+#img11{
+    height: 400px;
+    border-radius: 25%;
+}
+footer {
+    background-color: rgb(231, 132, 45);
+    /* Set your desired background color */
+    color: whitesmoke;
+    text-align: center;
+    /* Set your desired text color */
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

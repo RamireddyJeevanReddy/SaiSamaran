@@ -1,0 +1,126 @@
+header {
+    background-color: rgb(231, 132, 45);
+    margin: 0%;
+    padding: 20px;
+    min-height: 70px;
+    color: whitesmoke;
+}
+
+ul {
+    padding-bottom: 1%;
+    margin: 0%;
+    text-decoration: none;
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    float: right;
+    text-decoration: none;
+}
+
+#main {
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+
+body {
+    margin: 0%;
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+#logoimg {
+    height: 80px;
+    width: 200px;
+    margin-left: 20%;
+    margin-top: -1%;
+
+}
+
+nav {
+    text-decoration: none;
+}
+
+/* Remove underline for the "HOME" link */
+nav a {
+    text-decoration: none;
+
+    color: whitesmoke;
+}
+
+header .highlight,
+header,
+.current a {
+    color: black;
+    font-weight: bold;
+}
+
+:hover {
+    color: black;
+}
+#heading{
+    text-align: center;
+}
+#ph{
+    color: rgb(231, 132, 45);
+    
+}
+#ph1{
+    font-family: sans-serif;
+    color: rgb(111, 70, 19);
+}
+#container1{
+    flex: 1;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+p{
+    color: rgb(111, 70, 19);
+}
+#mimg{
+    width: 300px;
+}
+.boxes{
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10%;
+    background-color: bisque;
+    margin-top: 50px;
+
+    
+
+}
+img{
+    height: 250px;
+    width: 200px;
+    border-radius: 25%;
+}
+h2{
+    color: rgb(231, 132, 45);
+}
+#gana{
+    height: 10%;
+}
+
+footer {
+    background-color: rgb(231, 132, 45);
+    /* Set your desired background color */
+    color: whitesmoke;
+    text-align: center;
+    /* Set your desired text color */
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
